@@ -1,0 +1,24 @@
+.top-item-container {
+    position: relative;
+    padding: 50px;
+    background: #6AB7FF;
+    color: white;
+    border-radius: 30px;
+}
+
+.top-item-title {
+    font-family: StrogiyDemo, sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 102%;
+    text-transform: uppercase;
+}
+.top-item-subtitle {
+    margin-top: 27px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 95%;
+    max-width: 600px;
+}
+

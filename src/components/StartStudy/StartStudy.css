@@ -1,0 +1,150 @@
+.start-study_base-container {
+    background: #4C30C7;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    gap: 0;
+}
+
+.start-study_base-title {
+    font-family: StrogiyDemo, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 102%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.start-study_base-subtitle{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+}
+
+.start-study-left {
+    max-width: 585px;
+}
+
+.submit-button {
+    display: inline-block;
+    background-color: #6AB7FF;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: Matt_Trial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 95%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 3;
+
+    width: 481px;
+    height: 70px;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    gap: 10px;
+}
+.submit-button:hover {
+    background: #1B8EFA;
+}
+
+.registration-form {
+    padding-top: 30px;
+}
+
+.form-group {
+    padding-top: 12px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    align-content: center;
+}
+input {
+    align-content: center;
+
+    width: 485px;
+    height: 46px;
+    border-radius: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    gap: 13px;
+    border-width: 1px;
+}
+.start-study-right-img {
+    width: 555px;
+    padding-bottom: 30px;
+
+}
+.start-study-right-img {
+    border-radius: 30px;
+    border-width: 1px;
+}
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    width: 701px;
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.close-button:hover {
+    opacity: 0.8;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.center-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.modal-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 30px;
+    font-weight: 500;
+}

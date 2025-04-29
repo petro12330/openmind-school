@@ -1,0 +1,76 @@
+.stages-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.stage-card {
+    position: relative;
+    width: 585px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.stage-title {
+    padding-top: 130px;
+    font-family: StrogiyDemo, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 102%;
+    text-transform: uppercase;
+    color: #2C292F;
+}
+
+.stage-title2 {
+    font-family: StrogiyDemo, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 102%;
+    text-transform: uppercase;
+    color: #2C292F;
+}
+
+.stage-card__title {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 95%;
+}
+
+.stage-card__subtitle {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 119%;
+    padding-top: 15px;
+    max-width: 440px;
+}
+
+.stage-card__img {
+    position: absolute;
+    background-size: 50%;
+    height: 380px;
+    object-fit: cover; /* Обрезает изображение, сохраняя пропорции */
+
+}
+
+.stage-card__link_to {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 32px;
+    padding-top: 36px;
+}
+
+.stage-card__image{
+    position: absolute;
+    top: -28px;
+    left: 430px;
+}
+
+.stage-big-logo {
+    width: 1200px;
+    padding-top: 30px;
+}
