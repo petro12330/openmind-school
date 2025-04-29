@@ -36,17 +36,17 @@ const Navbar = () => {
             </Link>
 
             <div className="navbar__center">
-                <Link to="/" className="navbar__link">Главная</Link>
-                <Link to="/courses" className="navbar__link">Курсы</Link>
-                <Link to="/test" className="navbar__link">Тесты</Link>
+                <Link to="/" className="navbar__link">ГЛАВНАЯ</Link>
+                <Link to="/courses" className="navbar__link">КУРСЫ</Link>
+                <Link to="/test" className="navbar__link">ТЕСТЫ</Link>
             </div>
 
             <button
                 onClick={handleAuthClick}
                 className="navbar__login"
             >
-                {user ? user.login : 'Вход'}
-                <img src={LoginIcon} alt="Иконка входа" />
+                <img src={LoginIcon} alt="ИКОНКА ВХОДА" />
+                {user ? user.login : 'ВХОД'}
             </button>
         </nav>
     );

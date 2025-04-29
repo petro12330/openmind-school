@@ -46,7 +46,7 @@
     text-align: center;
     text-transform: uppercase;
     z-index: 3;
-
+    border: none;
     width: 481px;
     height: 70px;
     border-radius: 20px;

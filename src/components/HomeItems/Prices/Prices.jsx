@@ -47,7 +47,8 @@ const Price = ({
                     <Link to={{
                         pathname: "/",
                         hash: "#signup"
-                    }}>
+                    }}
+                    style={{ textDecoration: "none", outline:"none" }}>
                         <div className="price-price_info_btn">
                             Записаться на пробное занятие
                         </div>

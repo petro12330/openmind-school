@@ -46,6 +46,8 @@
     line-height: 119%;
     padding-top: 15px;
     max-width: 440px;
+    white-space: pre-line;
+
 }
 
 .stage-card__img {
