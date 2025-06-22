@@ -3,7 +3,7 @@ import React from 'react';
 import './Stages.css';
 import Stage1 from "../../../assets/images/stage_1.png";
 import Stage2 from "../../../assets/images/stage_2.png";
-import Stage3 from "../../../assets/images/stage_3.png";
+import Stage3 from "../../../assets/images/stage3.4.png";
 import Stage4 from "../../../assets/images/stage_4.png";
 
 
@@ -54,7 +54,7 @@ const Stages = () => {
             textColor: "#FFFFFF",
             cardColor: "#4C30C7",
             image: Stage3,
-            size: "120%"
+            size: "40%"
         },
         {
             title: 'Начинаем заниматься',

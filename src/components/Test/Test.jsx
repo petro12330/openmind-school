@@ -238,7 +238,6 @@ const Test = () => {
         }
     };
 
-    console.log(correctCount);
     const tests = [
         {
             "title": "Часть 1: Грамматика",

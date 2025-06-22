@@ -60,7 +60,7 @@ const CoursesCards = () => {
             link: '/courses#base'
         },
         {
-            title: 'Английский для учебы',
+            title: 'Английский\nдля учебы',
             image: SchoolImage,
             link: '/courses#study'
         },
@@ -71,7 +71,7 @@ const CoursesCards = () => {
         },
 
         {
-            title: 'Английский для путешествий',
+            title: 'Английский\n для путешествий',
             image: ColorImage,
             link: '/courses#travel'
         }
