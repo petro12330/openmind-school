@@ -1,0 +1,57 @@
+.try-test-container {
+    background: #6AB7FF;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 130px;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; /* Центрирование по вертикали */
+}
+
+.try-test-title {
+    font-family: StrogiyDemo, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 102%;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 989px;
+    padding-top: 50px;
+}
+
+.try-test-subtitle {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 100%;
+    text-align: center;
+    max-width: 930px;
+    padding-top: 10px;
+
+}
+
+.try-test-btn {
+    display: inline-block;
+    background: #4C30C7;
+    align-content: center;
+    width: 264px;
+    height: 70px;
+    top: 279px;
+    left: 468px;
+    gap: 10px;
+    border-radius: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110.00000000000001%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 30px 30px 55px;
+}
+.try-test-btn:hover {
+    background: #7760DE;
+}

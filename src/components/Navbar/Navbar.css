@@ -1,0 +1,105 @@
+/* Навигационная панель */
+.navbar {
+    height: 110px;
+    display: grid;
+    grid-template-columns: 330px 1fr 135px;
+    align-items: center;
+    gap: 36px;
+    padding: 30px 0;
+}
+
+
+/* Логотип */
+.navbar__logo {
+    /*font-family: StrogiyDemo;*/
+    font-family: 'StrogiyDemo', sans-serif;
+
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 95%;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 29px;
+    text-align: center;
+}
+
+/* Центральное меню */
+.navbar__center {
+    width: 368px;
+    height: 50px;
+    background: var(--secondary-bg);
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.navbar__link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.navbar__link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.navbar__link:hover::after {
+    width: 100%;
+}
+
+/* Кнопка входа */
+.navbar__login {
+    width: 135px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: filter 0.3s ease;
+}
+
+.navbar__login:hover {
+    filter: brightness(1.1);
+    background: #7760DE;
+}
+
+.navbar__login svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.navbar__logo {
+    display: flex;
+    gap: 4px; /* расстояние между словами */
+}
+
+.navbar__logo-openmind {
+    color: #4C30C7;
+}
+
+.navbar__logo-school {
+    color: #6AB7FF;
+}

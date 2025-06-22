@@ -1,0 +1,214 @@
+/*.start-study_base-container {*/
+/*    background: #4C30C7;*/
+/*    width: 100%;*/
+/*    border-radius: 30px;*/
+/*    margin-top: 130px;*/
+/*    padding-top: 30px;*/
+/*    padding-left: 30px;*/
+/*    display: flex;*/
+/*    gap: 0;*/
+/*}*/
+
+/*.start-study_base-title {*/
+/*    font-family: StrogiyDemo, sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 60px;*/
+/*    line-height: 102%;*/
+/*    text-transform: uppercase;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.start-study_base-subtitle{*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-weight: 500;*/
+/*    font-size: 23px;*/
+/*    line-height: 100%;*/
+/*    color: #FFFFFF;*/
+/*    padding-top: 10px;*/
+
+/*}*/
+
+/*.start-study-left {*/
+/*    max-width: 585px;*/
+/*}*/
+
+/*!*.submit-button {*!*/
+/*!*    display: inline-block;*!*/
+/*!*    background-color: #6AB7FF;*!*/
+/*!*    align-content: center;*!*/
+/*!*    color: white;*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    margin-top: 30px;*!*/
+/*!*    font-family: Matt_Trial, sans-serif;*!*/
+/*!*    font-weight: 700;*!*/
+/*!*    font-size: 18px;*!*/
+/*!*    line-height: 95%;*!*/
+/*!*    text-align: center;*!*/
+/*!*    text-transform: uppercase;*!*/
+/*!*    z-index: 3;*!*/
+
+/*!*    width: 481px;*!*/
+/*!*    height: 70px;*!*/
+/*!*    border-radius: 20px;*!*/
+/*!*    padding-right: 30px;*!*/
+/*!*    padding-left: 30px;*!*/
+/*!*    gap: 10px;*!*/
+/*!*}*!*/
+
+/*.registration-form {*/
+/*    padding-top: 30px;*/
+/*}*/
+
+/*.form-group {*/
+/*    padding-top: 12px;*/
+/*    !*display: flex;*!*/
+/*    !*align-items: center;*!*/
+/*    align-content: center;*/
+/*}*/
+/*input {*/
+/*    align-content: center;*/
+
+/*    width: 485px;*/
+/*    height: 46px;*/
+/*    border-radius: 30px;*/
+/*    padding-right: 30px;*/
+/*    padding-bottom: 10px;*/
+/*    padding-left: 30px;*/
+/*    gap: 13px;*/
+/*    border-width: 1px;*/
+/*}*/
+/*.start-study-right-img {*/
+/*    width: 555px;*/
+/*    padding-bottom: 30px;*/
+
+/*}*/
+/*.start-study-right-img {*/
+/*    border-radius: 30px;*/
+/*    border-width: 1px;*/
+/*}*/
+
+.carousel-container {
+    margin-top: 130px;
+}
+
+.carousel-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-button {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.teacher-card {
+    background: #4C30C7;
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+    white-space: pre-line;
+    width: 585px;
+    height: 347px;
+    top: 4846px;
+    left: 200px;
+    border-radius: 30px;
+    overflow: hidden
+
+}
+
+
+.teacher-container {
+    position: relative;
+    margin-left: 30px;
+    padding-top: 30px;
+
+}
+.teacher-card__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 95%;
+    white-space: pre-line;
+
+}
+
+.teacher-card__data {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 119%;
+    margin-top: 10px;
+}
+
+.teacher-card__data2 {
+    position: absolute;
+    text-align: center;
+    width: 225px;
+    height: 41px;
+    top: 276px;
+    border-radius: 200px;
+    padding: 10px 40px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.teacher-card__img{
+    position: absolute;
+    width: 509px;
+    height: 511px;
+    top: -100px;
+    left: 130px;
+    scale: 70%;
+
+}
+
+
+
+.review-card {
+    background: #C2E6FF;
+    font-family: Inter, sans-serif;
+    color: #262626;
+    white-space: pre-line;
+    width: 585px;
+    height: 360px;
+    top: 4846px;
+    left: 200px;
+    border-radius: 30px;
+}
+
+
+.review-container {
+    position: relative;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.review-title-cont {
+    display: flex;
+}
+.review-card__img {
+    margin-left: -40px;
+    margin-top: -50px;
+    scale: 50%;
+}
+
+.review-card__info {
+    margin-top: 10px;
+    margin-left: -20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 95%;
+}
+
+.review-card__age {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 119%;
+}
+
+.review-card__points {
+    position: absolute;
+}
+
+.review-card__data {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 119%;
+    margin-left: 90px;
+}
